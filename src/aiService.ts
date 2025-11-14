@@ -39,22 +39,22 @@ ${context}
 1. 必须生成英文变量名，不要使用中文或其他非英文字符
 2. 变量名必须符合${namingStyle}命名风格
 3. 变量名应该清晰表达变量的用途和含义
-4. 避免使用过于通用的名称如data、info、value等
+4. 避免使用过于通用的名称如data、info、value等,但是可以组合使用，例如list1_data、user_info等
 5. 根据上下文考虑合适的命名前缀或后缀
 
 请提供3-5个高质量的变量名建议，每个建议包括:
 1. 变量名
-2. 简短的英文解释说明为什么这个名称合适
+2. 显示变量名的中文翻译，并保留原格式
 
 请以JSON格式返回，格式如下:
 [
   {
-    "name": "suggestedName1",
-    "explanation": "Clear explanation in English why this name is appropriate"
+    "name": "user_age",
+    "explanation": "用户_年龄"
   },
   {
-    "name": "suggestedName2",
-    "explanation": "Clear explanation in English why this name is appropriate"
+    "name": "student_name",
+    "explanation": "学生_姓名"
   }
 ]
 
@@ -119,17 +119,17 @@ ${context}
 
 请提供3-5个高质量的方法名建议，每个建议包括:
 1. 方法名
-2. 简短的英文解释说明为什么这个名称合适
+2. 显示变量名的中文翻译，并保留原格式
 
 请以JSON格式返回，格式如下:
 [
   {
-    "name": "suggestedName1",
-    "explanation": "Clear explanation in English why this name is appropriate"
+    "name": "calculate_factorial",
+    "explanation": "计算_阶乘"
   },
   {
-    "name": "suggestedName2",
-    "explanation": "Clear explanation in English why this name is appropriate"
+    "name": "calculate_circle_area",
+    "explanation": "计算_圆形_面积"
   }
 ]
 

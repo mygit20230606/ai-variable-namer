@@ -91,16 +91,6 @@
         },
         "aiVariableNamer.model": {
           "type": "string",
-          "enum": [
-            "Qwen/Qwen2.5-7B-Instruct",
-            "Qwen/Qwen3-8B",
-            "Qwen/Qwen2-1.5B-Instruct"
-          ],
-          "enumDescriptions": [
-            "通义千问2.5系列，7B参数量，速度快，能力强",
-            "Qwen3-8B 是通义千问系列的最新大语言模型",
-            "通义千问2系列，1.5B参数量，轻量级，速度快"
-          ],
           "default": "Qwen/Qwen3-8B",
           "markdownDescription": "选择用于变量命名的AI模型\n\n**国产模型**\n- Qwen系列：阿里巴巴开发的通义千问系列\n- DeepSeek系列：深度求索系列，体积小速度快\n\n**国际模型**\n- GPT系列：需要OpenAI API密钥，功能强大但费用较高",
           "description": "使用的 AI 模型，不同模型速度和质量有差异"
