@@ -169,6 +169,7 @@ async function callAIService(
     url: apiEndpoint,
     data: {
       model: model,
+      reasoning_effort: "medium",
       messages: [
         {
           role: 'system',
